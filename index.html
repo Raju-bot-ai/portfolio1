@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TechRaju</title>
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+</head>
+
+<body>
+  <marquee>Welcome to my page</marquee>
+  <header>
+    <div class="tophead">
+      <div class="logo">TechRaju</div>
+      <div class="menu" onclick="opennav()">
+        &#9776;
+      </div>
+
+    </div>
+  </header>
+ <div class="sidenav" id="mySidenav">
+   <a class="a1" href="javascript:void(0)" class="closebtn" onclick="closenav()">&nbsp;&nbsp;&nbsp; &times;</a>
+    <a class="a1" href="#about">About me</a>
+    <a class="a1" href="#skills">Technical Skills</a>
+    <a class="a1" href="#education">Education</a>
+    <a class="a1" href="#Experience">Experience</a>
+ </div>
+
+ <img src="raju.jpg">
+  <p id="p1">
+    hi,<br>
+    i am <b>Raju</b><br>
+    <i>Web Developer and Programmer</i>
+  </p>
+    <div>
+      <span class="tab" id="home">About me</span>
+      <p id="p1">
+        I am <b>Raju Kumar Yadav</b>. I am pursuing B.Tech in Electrical Engineering from <b>B.I.T SINDRI</b>. I am a programmer, animal lover, social activist.
+      </p>
+    </div>    
+    <hr>
+
+    <div>
+      <span class="tab" id="about">
+        Technical Skills
+      </span>
+      <p id="p1">
+        1. Microsoft Office<br>
+        2. C Language<br>
+        3. Python<br>
+        4. Pygame<br>
+        5. Web Developer<br>
+        6. Javascript<br>
+
+      </p>
+    </div><hr>
+    <div>
+      <span class="tab" id="education">
+        Education
+      </span>
+      <p>
+        <div id="p1">
+         <span class="color" id="education"> High School: D.A.V School</span><br>
+          Class-12<br>
+          92.3%<br>
+          2015-2017
+          <br><br>
+          Class-10<br>
+          9.6cgpa<br>
+          2015<br>
+          <br>
+          <span id="color">B.I.T SINDRI</span><br>
+          ELECTRICAL ENGINERING<br>
+          9.31cgpa<br>
+        </div>
+      </p><hr>
+      <div id="p1">
+        <span class="tab" id="Experience">
+          Experience
+        </span>
+        <p>
+          1. Internship in Action Aid India (NGO)<br>
+          2. Internship in Youth Empowerment Foundation(NGO)<br>
+          3. Campus Ambassador in IIT DHANBAD<br>
+          4. Member at AICTSD<br>
+
+        </p>
+      </div>
+    </div><hr><br><br>
+    <footer>
+      <div id="footer">
+        <span><a  href="https://m.facebook.com/rajukumarsm" target="_blank" class="anc">Facebook</a></span>
+        <span><a href="https://www.linkedin.com/in/raju-kumar-yadav-136948169" target="_blank" class="anc">linkedin</a></span>
+        <span><a  href="https://mobile.twitter.com/Being2rajukumar"class="anc" target="_blank">Twitter</a></span>
+      </div>
+    </footer>
+
+
+
+
+<script>
+  function opennav(){
+    document.getElementById('mySidenav').style.width="250px";
+  }
+  function closenav(){
+    document.getElementById("mySidenav").style.width="0px";
+  }
+</script>
+</body>
+
+</html>
